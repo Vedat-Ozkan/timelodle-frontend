@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import './App.css'
-import MyTimeline from './components/timeline';
+import QuizGame from './components/QuizGame';
 
 function App() {
   axios
@@ -9,7 +9,7 @@ function App() {
     .then((res) => console.log(res));
   return (
     <>
-      <MyTimeline />
+      <QuizGame />
     </>
   );
 }
